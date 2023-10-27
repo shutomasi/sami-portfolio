@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #4c4c4c;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+/* main logo / nav */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  border-bottom: orange 1px solid;
+}
+
+header li, header a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+}
+
+header a:hover {
+  color: orange;
+  font-weight: bold;
+}
+
+/* hero banner */
+
+#hero-banner div {
+  background-image: url(../images/02-hero-bg.jpg);
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: orange 1px solid;
+}
+
+#hero-banner h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-stroke: black 1px;
+  font-size: 72px;
+  background-color: transparent;
+}
+
+/* page wrapper */
+
+/* about me */
+
+/* portfolio container */
+
+/* contact */
+
+.page-section-contact h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-section-contact ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  list-style: none;
+}
+
+.page-section-contact li {
+  padding: 5px;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  border-top: orange 1px solid;
+}
+
+footer h2 {
+  font-weight: lighter;
+}
