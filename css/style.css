@@ -48,11 +48,35 @@ header a:hover {
   background-color: transparent;
 }
 
-/* page wrapper */
+.page-section h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
 
 /* about me */
 
+#about p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  text-align: center;
+}
 /* portfolio container */
+
+#work ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  list-style: none;
+}
+
+#work li {
+  padding: 5px;
+}
 
 /* contact */
 
@@ -87,3 +111,5 @@ footer {
 footer h2 {
   font-weight: lighter;
 }
+
+/* media queries */
