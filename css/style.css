@@ -88,6 +88,13 @@ header a:hover {
   opacity: 0.3;
 }
 
+#work img {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
+
 /* contact */
 
 .page-section-contact h2 {
