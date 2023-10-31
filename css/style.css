@@ -21,6 +21,7 @@ header li, header a {
   display: inline-block;
   text-decoration: none;
   padding: 5px;
+  transition: 0.3s;
 }
 
 header a:hover {
@@ -78,6 +79,15 @@ header a:hover {
   padding: 5px;
 }
 
+#work img {
+  transition: 0.3s;
+  border: 1px solid orange;
+}
+
+#work img:hover {
+  opacity: 0.3;
+}
+
 /* contact */
 
 .page-section-contact h2 {
@@ -113,3 +123,21 @@ footer h2 {
 }
 
 /* media queries */
+
+@media screen and (max-width: 768px) {
+  ul {
+    flex-wrap: wrap;
+  }
+  li, a {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  ul {
+    flex-wrap: wrap;
+  }
+  li, a {
+    display: flex;
+  }
+}
