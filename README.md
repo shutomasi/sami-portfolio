@@ -4,9 +4,9 @@ This is my web development portfolio containing the work I have done so far and 
 
 Deployed website: https://smallfly4702.github.io/sami-portfolio.
 
-# Instructions
+# Preview
 
-The website can be viewed by visiting: https://smallfly4702.github.io/sami-portfolio.
+![Preview Screenshot](preview).png)
 
 # License
 
