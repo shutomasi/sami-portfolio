@@ -6,7 +6,7 @@ Deployed website: https://smallfly4702.github.io/sami-portfolio.
 
 # Preview
 
-![Preview Screenshot](preview).png)
+![Preview Screenshot](images/preview.png)
 
 # License
 
